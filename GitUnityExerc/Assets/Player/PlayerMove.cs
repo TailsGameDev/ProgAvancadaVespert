@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Esse script cuida do movimento do playerou de outros objetos, vai q neh
 public class PlayerMove : MonoBehaviour
 {
     public float vel;
