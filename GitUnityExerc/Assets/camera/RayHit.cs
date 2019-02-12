@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RayHit : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public delegate void ClickOnFloor(Vector3 point);
+    public event ClickOnFloor clickOnFloor;
+
     void Start()
     {
         
@@ -19,7 +21,7 @@ public class RayHit : MonoBehaviour
         layerMask = ~layerMask; //hits everything
         if (Physics.Raycast(ray , out hit , Mathf.Infinity , layerMask)) {
             if (Input.GetMouseButtonDown(0)) {
-                print("character should move to here " + hit.point);
+                clickOnFloor(hit.point);
             }
         }
     }
