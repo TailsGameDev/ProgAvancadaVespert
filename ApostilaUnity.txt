@@ -1,0 +1,11 @@
+Mostrar joguinho que fiz na Unity:
+video: https://www.youtube.com/watch?v=JDN3By9MvyY
+jogo https://gamejolt.com/games/inyourheart/357483
+
+Paradigmas da Unity:
+-> Cenas
+-> Game Objects
+-> Componentes
+
+Exercício 1:
+Partiu fazer juntos um quadradinho se mexer
