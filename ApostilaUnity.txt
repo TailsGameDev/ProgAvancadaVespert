@@ -1,11 +1,37 @@
+﻿Apostila pretende registrar o que foi ensinado em cada aula.
+
+(Aula de 30/04/2019)
+
 Mostrar joguinho que fiz na Unity:
 video: https://www.youtube.com/watch?v=JDN3By9MvyY
 jogo https://gamejolt.com/games/inyourheart/357483
 
+Combinamos:
+Cada aluno vai ter sua pastinha no projeto da Unity desse repositório, e vai
+começar o nome dos seus scripts com a letra inicial do seu próprio nome.
+Se o Cainã fizer um script, o nome dele tem que começar com C. Tipo CJogador.
+
 Paradigmas da Unity:
+-> Usa-se a linguagem de programação C#
 -> Cenas
+	Na Unity, o jogo é feito de cenas. Cada cena é uma fase, ou um menu.
 -> Game Objects
+	As cenas contém vários Game Objects.
 -> Componentes
+	Cada Game Object contém um ou vários componentes.
+
+Sistema de física
+-> Explicação sobre vetores da física e matemática reais.
+-> Componente Rigidbody2D
+-> Exemplo de física sendo usada no código:
+	GetComponent<Rigidbody2D>().velocity = new Vector3(0,5,0);
+	// a linha acima faz o objeto receber uma velocidade de 5, para cima.
+
+Input
+-> Exemplo no código.
+Input.GetKeyDown(KeyCode.UpArrow);
+// a linha acima retorna True caso a setinha para cima tenha sido apertada.
 
 Exercício 1:
 Partiu fazer juntos um quadradinho se mexer
+-> codificamos a movimentação de um personagem para jogo de plataforma (incompleta)
