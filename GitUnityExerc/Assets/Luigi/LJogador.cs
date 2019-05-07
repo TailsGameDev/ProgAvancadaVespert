@@ -17,9 +17,12 @@ public class LJogador : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector3(0,10,0);
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            GetComponent<Rigidbody2D>().velocity = new Vector3(6,0,0);
-            print("apertou left");
+            GetComponent<Rigidbody2D>().velocity = new Vector3(-6,0,0);
+            print("apertou Left");
         }
-        
+        if (Input.GetKeyDown(KeyCode.RightArrow)) {
+            GetComponent<Rigidbody2D>().velocity = new Vector3(6,0,0);
+            print("apertou Right");
+        }
     }
 }
