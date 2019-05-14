@@ -1,3 +1,5 @@
+? <- sinal para indicar que talvez não dê tempo
+
 ----Jogador----
 Tomar dano
 Mostrar vida em tempo real
@@ -12,11 +14,12 @@ Tiro reto
 Tiro que aparece e desaparece (cibernético)
 
 ----Desafios----
-Efeito de deixar devagar o alvo
+Efeito de deixar devagar o alvo (ou outro efeito ruim)
 Não pode sair de certa bolha
+obs: ensinar bem o jogador sobre a bolha
 
 ----Coletáveis----
-	Dão pontos (mostrar em tempo real
+	Dão pontos (mostrar em tempo real)
 
 ----Background----
 Movimento de cima para baixo
@@ -29,7 +32,7 @@ Créditos
 ----Inimigos----
 Tomar dano
 Um que Spawna vários tiros em círculo que se afastam dele
-Menu:
+?variar angulo e soltar tiros retos
 
 ----Modos de Dificuldade----
 Fácil, Médio, Difícil
