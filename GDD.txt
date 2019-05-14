@@ -1,0 +1,35 @@
+----Jogador----
+Tomar dano
+Mostrar vida em tempo real
+Movimentar-se
+	Slow Down quando pressionando tecla
+Atirar Continuamente
+
+----Projéteis----
+Dar dano
+Tiro que segue alvo
+Tiro reto
+Tiro que aparece e desaparece (cibernético)
+
+----Desafios----
+Efeito de deixar devagar o alvo
+Não pode sair de certa bolha
+
+----Coletáveis----
+	Dão pontos (mostrar em tempo real
+
+----Background----
+Movimento de cima para baixo
+
+----Menu----
+Começar jogo
+Recomeçar após morrer
+Créditos
+
+----Inimigos----
+Tomar dano
+Um que Spawna vários tiros em círculo que se afastam dele
+Menu:
+
+----Modos de Dificuldade----
+Fácil, Médio, Difícil
