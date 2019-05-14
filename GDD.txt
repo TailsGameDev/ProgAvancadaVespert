@@ -3,7 +3,7 @@
 ----Jogador----
 Tomar dano
 Mostrar vida em tempo real
-Movimentar-se
+ok Movimentar-se
 	Slow Down quando pressionando tecla
 Atirar Continuamente
 

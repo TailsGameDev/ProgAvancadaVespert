@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class cPlayer : MonoBehaviour
 {
     Rigidbody2D rb;
     public float vel;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = this.GetComponent<Rigidbody2D>();
     }
 
     void Update() {
