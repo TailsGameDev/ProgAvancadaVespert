@@ -1,16 +1,16 @@
 ? <- sinal para indicar que talvez não dê tempo
 
 ----Jogador----
-Tomar dano
+[hj] Tomar dano
 Mostrar vida em tempo real
-ok Movimentar-se
-	Slow Down quando pressionando tecla
-Atirar Continuamente
+>ok Movimentar-se
+[hj] 	Slow Down quando pressionando tecla
+>ok Atirar Continuamente
 
 ----Projéteis----
 Dar dano
 Tiro que segue alvo
-Tiro reto
+>ok Tiro reto
 Tiro que aparece e desaparece (cibernético)
 
 ----Desafios----
@@ -26,11 +26,11 @@ Movimento de cima para baixo
 
 ----Menu----
 Começar jogo
-Recomeçar após morrer
+[hj] Recomeçar após morrer
 Créditos
 
 ----Inimigos----
-Tomar dano
+>ok Tomar dano
 Um que Spawna vários tiros em círculo que se afastam dele
 ?variar angulo e soltar tiros retos
 
