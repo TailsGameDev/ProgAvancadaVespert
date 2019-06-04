@@ -17,7 +17,7 @@ public class cTiroCaina : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position = /*originalPos+raio **/ (new Vector3(Mathf.Sin(t) , Mathf.Cos(t) , 0));
+        transform.position = originalPos+raio * (new Vector3(Mathf.Sin(t) , Mathf.Cos(t) , 0));
         t += Time.deltaTime * vel;
         raio += Time.deltaTime;
     }

@@ -13,6 +13,7 @@ public class LerpCam : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (CoisaPraSeguir == null) { Destroy(this); return; }
         Vector3 pos = Vector3.Lerp(transform.position, CoisaPraSeguir.position, 0.02f);
         pos = new Vector3(pos.x , pos.y , -10);
         transform.position = pos;
