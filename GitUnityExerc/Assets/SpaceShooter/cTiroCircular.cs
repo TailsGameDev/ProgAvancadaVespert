@@ -13,9 +13,9 @@ public class cTiroCircular : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        rb.velocity = transform.up * vel;
+        rb.velocity = transform.right * vel;
         rb.transform.eulerAngles += new Vector3(0, 0, 10f);
     }
 }
