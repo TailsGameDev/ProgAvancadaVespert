@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/SpaceShooter/CMenu.unity
+    guid: 12b6fc15c19733748a295e959a85eab5
+  - enabled: 1
+    path: Assets/SpaceShooter/game.unity
+    guid: 5279a4db8554a214fa787cc8e1a26db3
   m_configObjects: {}

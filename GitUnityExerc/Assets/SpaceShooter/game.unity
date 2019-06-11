@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiro: {fileID: 857072634564159892, guid: e3a93e7a228d68a4a8281610f6452481, type: 3}
-  delay: 0.5
+  delay: 2
 --- !u!1 &475832693
 GameObject:
   m_ObjectHideFlags: 0
