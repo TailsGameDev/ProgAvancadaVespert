@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class cTomaDano : MonoBehaviour
 {
     public int vida;
     public string[] naoMeDaoDano;
+    public string cenaParaCarregarAoMorrer;
 
     bool Contem (string n) {
         bool tem = false;
@@ -28,8 +30,11 @@ public class cTomaDano : MonoBehaviour
 
         tiro.BateuEmAlgo();
 
-        if (vida <= 0)
+        if (vida <= 0) {
+            ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer , 2f);
             Destroy(gameObject);
+        }
     }
+
 
 }
