@@ -35,7 +35,7 @@ public class cTomaDano : MonoBehaviour
         }
     }
 
-    protected void AoMorrer () {
+    protected virtual void AoMorrer () {
         ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer , 2f);
         Destroy(gameObject);
     }
