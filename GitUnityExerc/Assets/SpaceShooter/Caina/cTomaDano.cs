@@ -9,7 +9,7 @@ public class cTomaDano : MonoBehaviour
     public string[] naoMeDaoDano;
     public string cenaParaCarregarAoMorrer;
 
-    bool Contem (string n) {
+    protected bool Contem (string n) {
         bool tem = false;
         int i = 0;
         while (i < naoMeDaoDano.Length) {
@@ -19,7 +19,7 @@ public class cTomaDano : MonoBehaviour
         return tem;
     }
 
-    void OnTriggerEnter2D (Collider2D col) {
+    protected void OnTriggerEnter2D (Collider2D col) {
         cDahDano tiro = col.GetComponent<cDahDano>();
         if (tiro == null) return;
         if (Contem(tiro.nome)) return;
@@ -31,14 +31,13 @@ public class cTomaDano : MonoBehaviour
         tiro.BateuEmAlgo();
 
         if (vida <= 0) {
-            if (cenaParaCarregarAoMorrer == null || cenaParaCarregarAoMorrer == "")
-            {
-                print(this.name);
-            }
-            ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer , 2f);
-            Destroy(gameObject);
+            AoMorrer();
         }
     }
 
+    protected virtual void AoMorrer () {
+        ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer , 2f);
+        Destroy(gameObject);
+    }
 
 }
