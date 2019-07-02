@@ -31,6 +31,10 @@ public class cTomaDano : MonoBehaviour
         tiro.BateuEmAlgo();
 
         if (vida <= 0) {
+            if (cenaParaCarregarAoMorrer == null || cenaParaCarregarAoMorrer == "")
+            {
+                print(this.name);
+            }
             ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer , 2f);
             Destroy(gameObject);
         }
