@@ -218,7 +218,7 @@ MonoBehaviour:
   vida: 5
   naoMeDaoDano:
   - tiroCaina
-  cenaParaCarregarAoMorrer: cvitoria
+  cenaParaCarregarAoMorrer: Fase2
 --- !u!212 &475832696
 SpriteRenderer:
   m_ObjectHideFlags: 0
