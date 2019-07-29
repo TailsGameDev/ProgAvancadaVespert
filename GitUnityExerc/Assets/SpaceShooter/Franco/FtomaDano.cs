@@ -24,7 +24,7 @@ public class FtomaDano : cTomaDano
     }
     protected override void AoMorrer()
     {
-        if (contInimigo == 1)
+        if (contInimigo <= 1)
         {
             ManageScenes.instancia.CarregaCena(cenaParaCarregarAoMorrer, 2f);
             GameObject[] tiros = GameObject.FindGameObjectsWithTag("tiro");
@@ -35,8 +35,9 @@ public class FtomaDano : cTomaDano
 
 
         }
-        Destroy(gameObject);
         contInimigo = contInimigo - 1;
+        print(contInimigo);
+        Destroy(gameObject);
     }
 
 }

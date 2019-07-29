@@ -579,7 +579,7 @@ MonoBehaviour:
   naoMeDaoDano:
   - tiroCaina
   - tiroRetoInimigo
-  cenaParaCarregarAoMorrer: cvitoria
+  cenaParaCarregarAoMorrer: game
 --- !u!212 &1547260573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   naoMeDaoDano:
   - tiroCaina
   - tiroRetoInimigo
-  cenaParaCarregarAoMorrer: cvitoria
+  cenaParaCarregarAoMorrer: game
 --- !u!61 &1677057468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   naoMeDaoDano:
   - tiroCaina
   - tiroRetoInimigo
-  cenaParaCarregarAoMorrer: cvitoria
+  cenaParaCarregarAoMorrer: game
 --- !u!212 &2102559371
 SpriteRenderer:
   m_ObjectHideFlags: 0

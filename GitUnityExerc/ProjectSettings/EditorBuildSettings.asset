@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SpaceShooter/Caina/menus/cvitoria.unity
     guid: 123752667b7bb204eb635f94506408c3
+  - enabled: 1
+    path: Assets/SpaceShooter/Franco/faseF.unity
+    guid: 706eb83b56a8fd64d86eab2ea8176755
   m_configObjects: {}

@@ -599,6 +599,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: cenaParaCarregarAoMorrer
+      value: Fase2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: vida
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3047305664666228254, guid: 7dad48348f161d84db91bb487f70b764,
         type: 3}
       propertyPath: delay
@@ -935,6 +945,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: cenaParaCarregarAoMorrer
+      value: Fase2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: vida
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3047305664666228254, guid: 7dad48348f161d84db91bb487f70b764,
         type: 3}
       propertyPath: delay
@@ -1015,6 +1035,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: cenaParaCarregarAoMorrer
+      value: Fase2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: vida
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3047305664666228254, guid: 7dad48348f161d84db91bb487f70b764,
         type: 3}
@@ -1099,6 +1129,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: cenaParaCarregarAoMorrer
+      value: Fase2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921595668516215043, guid: 7dad48348f161d84db91bb487f70b764,
+        type: 3}
+      propertyPath: vida
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3047305664666228254, guid: 7dad48348f161d84db91bb487f70b764,
         type: 3}
