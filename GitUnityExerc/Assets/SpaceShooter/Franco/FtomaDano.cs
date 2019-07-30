@@ -14,6 +14,7 @@ public class FtomaDano : cTomaDano
     private void Start()
     {
         contInimigo += 1;
+        print(gameObject.name);
     }
     // Update is called once per frame
     void Update()
